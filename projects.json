@@ -15,9 +15,9 @@
       {
         "type": "image",
         "label": "9 mm black + white",
-        "src": "public/projects/01-cable-sleeve/compact-black-white-mockup.png",
-        "alt": "Compact black split cable sleeve with an integral flat face and flush white L1P2 text",
-        "caption": "Current concept — 9 mm long, black PETG body, flush white two-layer inlay, slit up, and support-free face-down printing."
+        "src": "public/projects/01-cable-sleeve/compact-black-white-mockup-v2.png",
+        "alt": "Four-view mockup clearly showing the flat planar text face and full-length open slot of the compact black cable sleeve",
+        "caption": "Corrected geometry — broad flat one-piece text face and a true open slot running through the complete 9 mm length."
       },
       {
         "type": "image",
