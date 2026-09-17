@@ -15,6 +15,13 @@
       {
         "type": "image",
         "label": "9 mm black + white",
+        "src": "public/projects/01-cable-sleeve/compact-black-white-realistic.png",
+        "alt": "Realistic black PETG cable sleeve with white L1P2 inlay and a continuous slot open through both ends",
+        "caption": "Realistic product mockup — compact black PETG sleeve, flush white L1P2 inlay and a full-length snap-on opening."
+      },
+      {
+        "type": "image",
+        "label": "Geometry check",
         "src": "public/projects/01-cable-sleeve/compact-black-white-technical.svg",
         "alt": "Precise four-view diagram showing two separate rails, a planar text face and a slot open through both ends",
         "caption": "Geometry definition — no end rings or bridges: the slot stays open continuously through both ends of the 9 mm sleeve."
