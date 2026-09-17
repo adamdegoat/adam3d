@@ -3,21 +3,28 @@
     "number": "01",
     "slug": "cable-sleeve",
     "title": "Snap-on Cable Sleeve",
-    "status": "Design selected",
-    "description": "A short, upright-printed split tube that snaps sideways onto a 2.5 mm² cable and carries one recessed four-character circuit code.",
+    "status": "Redesign review",
+    "description": "A short split tube with an integral flat label face for flush two-colour text, printed face-down with the slit upward.",
     "specs": {
       "Cable reference": "Tai Sin 1 × 2.5 mm²",
       "Cable OD": "Up to 4.2 mm",
       "Printer": "Bambu Lab P2S / 0.4 mm",
-      "Material / setup": "PETG / upright / no supports"
+      "Material / setup": "Two-colour PETG / face-down"
     },
     "assets": [
       {
         "type": "image",
-        "label": "Chosen design",
+        "label": "Two-colour flat face",
+        "src": "public/projects/01-cable-sleeve/two-colour-flat-face-mockup.png",
+        "alt": "Orange split cable sleeve with an integral flat face and flush white L1P2 text",
+        "caption": "Redesign concept — integral flat label face, flush two-colour text, slit up, and support-free face-down printing."
+      },
+      {
+        "type": "image",
+        "label": "Round reference",
         "src": "public/projects/01-cable-sleeve/landscape-code-mockup.png",
         "alt": "Orange split-tube cable markers with recessed landscape codes L1P2 and L2P1",
-        "caption": "Selected standard — one recessed four-character code per sleeve, printed upright without supports."
+        "caption": "Earlier round reference — single-colour recessed text and upright printing."
       }
     ]
   }
