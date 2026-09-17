@@ -4,7 +4,7 @@
     "slug": "cable-sleeve",
     "title": "Snap-on Cable Sleeve",
     "status": "Concept development",
-    "description": "A short, split-tube circuit marker that flexes open and snaps sideways onto a 2.5 mm² single-core electrical cable.",
+    "description": "A short, split-tube circuit marker that flexes open and snaps sideways onto a 2.5 mm² single-core electrical cable, with a recessed landscape code repeated around the sleeve.",
     "specs": {
       "Cable reference": "Tai Sin 1 × 2.5 mm²",
       "Cable OD": "Up to 4.2 mm",
@@ -14,7 +14,14 @@
     "assets": [
       {
         "type": "image",
-        "label": "Concept mockup",
+        "label": "Landscape codes",
+        "src": "public/projects/01-cable-sleeve/landscape-code-mockup.png",
+        "alt": "Orange split-tube cable markers with recessed landscape codes L1P2 and L2P1",
+        "caption": "Updated concept — L1P2 and L2P1 shown as recessed landscape identification codes repeated around separate sleeves."
+      },
+      {
+        "type": "image",
+        "label": "Earlier concept",
         "src": "public/projects/01-cable-sleeve/concept-mockup.png",
         "alt": "Orange split-tube cable marker shown upright and installed on a brown electrical cable",
         "caption": "Concept only — dimensions will be tuned with physical fit tests before the first printable model."
