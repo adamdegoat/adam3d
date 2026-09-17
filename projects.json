@@ -25,13 +25,6 @@
         "src": "public/projects/01-cable-sleeve/landscape-code-mockup.png",
         "alt": "Orange split-tube cable markers with recessed landscape codes L1P2 and L2P1",
         "caption": "Comparison — the code runs along the cable axis and has less room for longer identifiers."
-      },
-      {
-        "type": "image",
-        "label": "Earlier concept",
-        "src": "public/projects/01-cable-sleeve/concept-mockup.png",
-        "alt": "Orange split-tube cable marker shown upright and installed on a brown electrical cable",
-        "caption": "Concept only — dimensions will be tuned with physical fit tests before the first printable model."
       }
     ]
   }
