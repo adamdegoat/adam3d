@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Adam3D compact cable sleeve geometry</title>
+  <desc id="desc">Four technical views showing a flat text face and a slot open continuously through both ends of the sleeve.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f6f7"/>
+      <stop offset="1" stop-color="#dfe2e4"/>
+    </linearGradient>
+    <linearGradient id="blackBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#303236"/>
+      <stop offset="0.45" stop-color="#101114"/>
+      <stop offset="1" stop-color="#26282c"/>
+    </linearGradient>
+    <linearGradient id="cable" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5235"/>
+      <stop offset="0.5" stop-color="#63351f"/>
+      <stop offset="1" stop-color="#3d2117"/>
+    </linearGradient>
+    <pattern id="layers" width="7" height="7" patternUnits="userSpaceOnUse">
+      <path d="M0 1H7" stroke="#fff" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#ff6b18"/>
+    </marker>
+    <style>
+      .panel{fill:url(#panel)}
+      .rule{stroke:#bec3c7;stroke-width:2}
+      .h{font:700 30px Inter,Arial,sans-serif;fill:#17191c}
+      .sub{font:500 19px Inter,Arial,sans-serif;fill:#52575c}
+      .label{font:700 18px Inter,Arial,sans-serif;fill:#17191c}
+      .note{font:600 16px Inter,Arial,sans-serif;fill:#52575c}
+      .orange{fill:#ff6b18}
+      .dim{stroke:#5a6065;stroke-width:2;fill:none}
+      .lead{stroke:#ff6b18;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .body{fill:url(#blackBody);stroke:#050607;stroke-width:4}
+      .layer{fill:url(#layers)}
+    </style>
+  </defs>
+
+  <rect width="1536" height="1024" fill="#cfd3d6"/>
+  <rect class="panel" x="0" y="0" width="768" height="512"/>
+  <rect class="panel" x="768" y="0" width="768" height="512"/>
+  <rect class="panel" x="0" y="512" width="768" height="512"/>
+  <rect class="panel" x="768" y="512" width="768" height="512"/>
+  <path class="rule" d="M768 0V1024M0 512H1536"/>
+
+  <!-- 1: exact top view, two unconnected rails -->
+  <text class="h" x="34" y="52">1. PRINT ORIENTATION — TOP VIEW</text>
+  <text class="sub" x="34" y="84">Flat text face on the build plate; text hidden underneath</text>
+  <rect x="100" y="150" width="560" height="258" rx="74" fill="none" stroke="#7b8085" stroke-width="3" stroke-dasharray="10 9"/>
+  <rect class="body" x="100" y="150" width="560" height="91" rx="40"/>
+  <rect class="layer" x="105" y="155" width="550" height="81" rx="35"/>
+  <rect class="body" x="100" y="317" width="560" height="91" rx="40"/>
+  <rect class="layer" x="105" y="322" width="550" height="81" rx="35"/>
+  <rect x="88" y="241" width="584" height="76" fill="#fff" fill-opacity=".78"/>
+  <text x="380" y="287" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="800" fill="#ff6b18">OPEN SLOT</text>
+  <path class="lead" d="M155 270H100"/>
+  <path class="lead" d="M605 270H660"/>
+  <text class="label" x="380" y="448" text-anchor="middle">NO BRIDGE AT LEFT END • NO BRIDGE AT RIGHT END</text>
+  <path class="dim" d="M100 468V490M660 468V490M100 481H660"/>
+  <text class="note" x="380" y="503" text-anchor="middle">9 mm full-length opening</text>
+
+  <!-- 2: underside -->
+  <text class="h" x="802" y="52">2. FLAT UNDERSIDE</text>
+  <text class="sub" x="802" y="84">One-piece planar face with flush two-colour inlay</text>
+  <rect class="body" x="920" y="142" width="480" height="300" rx="26"/>
+  <rect class="layer" x="925" y="147" width="470" height="290" rx="22"/>
+  <path d="M938 156H1382" stroke="#696d72" stroke-width="4"/>
+  <path d="M938 428H1382" stroke="#060708" stroke-width="5"/>
+  <text x="1160" y="335" text-anchor="middle" font-family="Arial Narrow,Inter,Arial,sans-serif" font-size="112" font-weight="900" fill="#fff">L1P2</text>
+  <path class="dim" d="M920 115V136M1400 115V136M920 125H1400"/>
+  <text class="label" x="1160" y="108" text-anchor="middle">9 mm</text>
+  <path class="dim" d="M875 142H910M875 442H910M891 142V442"/>
+  <text class="label" x="855" y="300" text-anchor="middle" transform="rotate(-90 855 300)">7 mm FLAT PLANAR FACE</text>
+  <text class="note" x="1160" y="475" text-anchor="middle">White PETG • 0.4 mm deep • first two layers only</text>
+
+  <!-- 3: installed -->
+  <text class="h" x="34" y="564">3. INSTALLED ON CABLE</text>
+  <text class="sub" x="34" y="596">Flat face readable; continuous slot remains open on opposite side</text>
+  <rect x="40" y="720" width="688" height="94" rx="47" fill="url(#cable)"/>
+  <g>
+    <rect class="body" x="260" y="635" width="282" height="252" rx="28"/>
+    <rect class="layer" x="265" y="640" width="272" height="242" rx="24"/>
+    <text x="401" y="806" text-anchor="middle" font-family="Arial Narrow,Inter,Arial,sans-serif" font-size="78" font-weight="900" fill="#fff">L1P2</text>
+    <!-- Slot shown as a full-length channel with explicitly open ends -->
+    <path d="M274 649H528" stroke="#f1f2f3" stroke-width="22" stroke-linecap="butt"/>
+    <path d="M274 649H528" stroke="#050607" stroke-width="13" stroke-linecap="butt"/>
+    <path class="lead" d="M180 655H263"/>
+    <path class="lead" d="M620 655H540"/>
+  </g>
+  <text class="label" x="401" y="930" text-anchor="middle">SLOT EXITS BOTH ENDS — CABLE PUSHES THROUGH HERE</text>
+
+  <!-- 4: end profile -->
+  <text class="h" x="802" y="564">4. END PROFILE</text>
+  <text class="sub" x="802" y="596">D-shaped body; slot fully breaks through into the cable cavity</text>
+  <circle cx="1150" cy="770" r="105" fill="url(#cable)"/>
+  <path d="M1108 637 C1015 655 985 716 985 784 L985 900 L1315 900 L1315 784 C1315 716 1285 655 1192 637"
+        fill="none" stroke="#090a0c" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1108 637 C1015 655 985 716 985 784 L985 900 L1315 900 L1315 784 C1315 716 1285 655 1192 637"
+        fill="none" stroke="url(#layers)" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="lead" d="M1150 590V625"/>
+  <text class="label" x="1150" y="580" text-anchor="middle">OPEN THROUGH WALL</text>
+  <path class="dim" d="M958 927V955M1342 927V955M958 943H1342"/>
+  <text class="label" x="1150" y="982" text-anchor="middle">7 mm FLAT FACE</text>
+  <text class="note" x="1370" y="704">1.2 mm wall</text>
+  <text class="note" x="1370" y="732">4.2 mm inner fit</text>
+
+  <rect x="20" y="990" width="1496" height="22" rx="11" fill="#17191c"/>
+  <text x="768" y="1007" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#fff">FULL-LENGTH SLOT: OPEN AT BOTH ENDS • NO END RINGS • NO CROSS-BRIDGES</text>
+</svg>

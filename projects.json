@@ -15,9 +15,9 @@
       {
         "type": "image",
         "label": "9 mm black + white",
-        "src": "public/projects/01-cable-sleeve/compact-black-white-mockup-v2.png",
-        "alt": "Four-view mockup clearly showing the flat planar text face and full-length open slot of the compact black cable sleeve",
-        "caption": "Corrected geometry — broad flat one-piece text face and a true open slot running through the complete 9 mm length."
+        "src": "public/projects/01-cable-sleeve/compact-black-white-technical.svg",
+        "alt": "Precise four-view diagram showing two separate rails, a planar text face and a slot open through both ends",
+        "caption": "Geometry definition — no end rings or bridges: the slot stays open continuously through both ends of the 9 mm sleeve."
       },
       {
         "type": "image",
