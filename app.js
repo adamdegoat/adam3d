@@ -3,6 +3,7 @@ const image = document.querySelector('#project-image');
 const empty = document.querySelector('#empty-state');
 const tabs = document.querySelector('#asset-tabs');
 const fitButton = document.querySelector('#fit-button');
+const focusButton = document.querySelector('#focus-button');
 
 let projects = [];
 let activeProject = null;
@@ -78,6 +79,20 @@ async function init() {
 fitButton.addEventListener('click', () => {
   const actual = image.classList.toggle('actual');
   fitButton.textContent = actual ? 'Fit image' : 'Actual size';
+});
+
+function setFocusMode(enabled) {
+  document.body.classList.toggle('focus-mode', enabled);
+  focusButton.textContent = enabled ? 'Exit focus' : 'Focus view';
+}
+
+focusButton.addEventListener('click', () => {
+  setFocusMode(!document.body.classList.contains('focus-mode'));
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key.toLowerCase() === 'f') setFocusMode(!document.body.classList.contains('focus-mode'));
+  if (event.key === 'Escape') setFocusMode(false);
 });
 
 init().catch((error) => {
