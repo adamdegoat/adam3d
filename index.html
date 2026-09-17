@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#11110f" />
+    <title>Adam3D Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a class="brand" href="/">
+        <span class="brand-mark">A3</span>
+        <span><strong>Adam3D</strong><small>Project viewer</small></span>
+      </a>
+      <p class="eyebrow">Projects</p>
+      <nav id="project-list" aria-label="Adam3D projects"></nav>
+      <div class="sidebar-foot">Personal prototypes<br />Singapore</div>
+    </aside>
+
+    <main id="app">
+      <header class="topbar">
+        <span id="project-number">Project —</span>
+        <span class="live"><i></i> Local viewer</span>
+      </header>
+
+      <section class="project-head">
+        <div>
+          <div class="status" id="project-status">Loading</div>
+          <h1 id="project-title">Adam3D</h1>
+          <p id="project-description">Loading project…</p>
+        </div>
+        <dl id="project-specs"></dl>
+      </section>
+
+      <section class="viewer-card">
+        <div class="viewer-toolbar">
+          <div id="asset-tabs" class="asset-tabs"></div>
+          <button id="fit-button" type="button">Fit image</button>
+        </div>
+        <div id="stage" class="stage">
+          <img id="project-image" alt="" />
+          <div id="empty-state" hidden>No preview has been added yet.</div>
+        </div>
+        <footer id="asset-caption"></footer>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

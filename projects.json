@@ -1,0 +1,24 @@
+[
+  {
+    "number": "01",
+    "slug": "cable-sleeve",
+    "title": "Snap-on Cable Sleeve",
+    "status": "Concept development",
+    "description": "A short, split-tube circuit marker that flexes open and snaps sideways onto a 2.5 mm² single-core electrical cable.",
+    "specs": {
+      "Cable reference": "Tai Sin 1 × 2.5 mm²",
+      "Cable OD": "Up to 4.2 mm",
+      "Prototype material": "PETG",
+      "Print orientation": "Upright"
+    },
+    "assets": [
+      {
+        "type": "image",
+        "label": "Concept mockup",
+        "src": "public/projects/01-cable-sleeve/concept-mockup.png",
+        "alt": "Orange split-tube cable marker shown upright and installed on a brown electrical cable",
+        "caption": "Concept only — dimensions will be tuned with physical fit tests before the first printable model."
+      }
+    ]
+  }
+]
