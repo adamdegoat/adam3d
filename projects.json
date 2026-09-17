@@ -3,28 +3,21 @@
     "number": "01",
     "slug": "cable-sleeve",
     "title": "Snap-on Cable Sleeve",
-    "status": "Concept development",
-    "description": "A short, split-tube circuit marker that snaps sideways onto a 2.5 mm² cable, standardized with a recessed 90° circumferential code path.",
+    "status": "Design selected",
+    "description": "A short, upright-printed split tube that snaps sideways onto a 2.5 mm² cable and carries one recessed four-character circuit code.",
     "specs": {
       "Cable reference": "Tai Sin 1 × 2.5 mm²",
       "Cable OD": "Up to 4.2 mm",
       "Prototype material": "PETG",
-      "Print orientation": "Upright"
+      "Print orientation": "Upright, no supports"
     },
     "assets": [
       {
         "type": "image",
-        "label": "90° standard",
-        "src": "public/projects/01-cable-sleeve/circumferential-90-mockup.png",
-        "alt": "Orange split-tube cable markers with L1P2 and L2P1 running circumferentially around the sleeves",
-        "caption": "Proposed standard — the code path is rotated 90° and travels around the sleeve, perpendicular to the cable axis."
-      },
-      {
-        "type": "image",
-        "label": "Axial comparison",
+        "label": "Chosen design",
         "src": "public/projects/01-cable-sleeve/landscape-code-mockup.png",
         "alt": "Orange split-tube cable markers with recessed landscape codes L1P2 and L2P1",
-        "caption": "Comparison — the code runs along the cable axis and has less room for longer identifiers."
+        "caption": "Selected standard — one recessed four-character code per sleeve, printed upright without supports."
       }
     ]
   }
