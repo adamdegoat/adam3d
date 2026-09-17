@@ -8,8 +8,8 @@
     "specs": {
       "Cable reference": "Tai Sin 1 × 2.5 mm²",
       "Cable OD": "Up to 4.2 mm",
-      "Prototype material": "PETG",
-      "Print orientation": "Upright, no supports"
+      "Printer": "Bambu Lab P2S / 0.4 mm",
+      "Material / setup": "PETG / upright / no supports"
     },
     "assets": [
       {
